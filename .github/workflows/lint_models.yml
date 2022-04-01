@@ -14,8 +14,6 @@ jobs:
         run: "pip install sqlfluff==0.3.6"
       - name: get cwd
         run : |
-          python3
-          import os
-          print(os.getcwd())
+          python ./scripts/run.py
       - name: Lint models
         run: "sqlfluff lint models"
