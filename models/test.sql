@@ -1,0 +1,1 @@
+seLeCT * from tbl
